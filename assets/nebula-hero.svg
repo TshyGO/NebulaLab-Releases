@@ -1,0 +1,66 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="80" x2="1480" y2="820" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F3E8D2"/>
+      <stop offset="0.55" stop-color="#E7EEF5"/>
+      <stop offset="1" stop-color="#D9E6DD"/>
+    </linearGradient>
+    <linearGradient id="card" x1="270" y1="170" x2="1320" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFDF7"/>
+      <stop offset="1" stop-color="#F5F7FA"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="1010" y1="180" x2="1340" y2="580" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A66C2"/>
+      <stop offset="1" stop-color="#2C9C8C"/>
+    </linearGradient>
+    <filter id="shadow" x="220" y="120" width="1160" height="700" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="20" stdDeviation="30" flood-color="#29415A" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1310" cy="160" r="170" fill="#C9E4DB" fill-opacity="0.55"/>
+  <circle cx="250" cy="760" r="220" fill="#E9D8B4" fill-opacity="0.45"/>
+  <path d="M1260 90C1393 90 1500 197 1500 330V390H1020V330C1020 197 1127 90 1260 90Z" fill="#E8F0FB" fill-opacity="0.7"/>
+
+  <g filter="url(#shadow)">
+    <rect x="260" y="150" width="1080" height="620" rx="34" fill="url(#card)"/>
+    <rect x="260.75" y="150.75" width="1078.5" height="618.5" rx="33.25" stroke="#C5D2DE" stroke-opacity="0.65" stroke-width="1.5"/>
+  </g>
+
+  <rect x="320" y="210" width="98" height="98" rx="26" fill="#FFF6E4"/>
+  <rect x="342" y="232" width="54" height="54" rx="16" fill="url(#accent)"/>
+  <path d="M358 271V247H372C384.5 247 392 252.8 392 265.5C392 278.2 384.5 284 372 284H358V271Z" fill="white"/>
+
+  <text x="320" y="392" fill="#10243E" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="74" font-weight="700">Nebula Graph</text>
+  <text x="320" y="448" fill="#4A617A" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="28" font-weight="500">Scientific data preparation, batch processing, visualization, and Origin-ready export</text>
+
+  <text x="320" y="532" fill="#10243E" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="24" font-weight="700">Group-first workflow</text>
+  <text x="320" y="568" fill="#5E748B" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="22">Import → group → clean → batch process → branch → plot → export</text>
+
+  <g>
+    <rect x="320" y="618" width="246" height="72" rx="20" fill="#0A66C2"/>
+    <text x="354" y="663" fill="white" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="26" font-weight="700">Desktop Data Workstation</text>
+  </g>
+
+  <g>
+    <rect x="890" y="220" width="360" height="196" rx="28" fill="#FFFFFF"/>
+    <rect x="910" y="248" width="136" height="22" rx="11" fill="#E7EEF5"/>
+    <rect x="910" y="290" width="300" height="16" rx="8" fill="#D7E3EF"/>
+    <rect x="910" y="320" width="264" height="16" rx="8" fill="#D7E3EF"/>
+    <rect x="910" y="350" width="222" height="16" rx="8" fill="#D7E3EF"/>
+    <rect x="910" y="378" width="114" height="18" rx="9" fill="#CFE4D8"/>
+    <text x="910" y="392" fill="#2C6A57" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="18" font-weight="700">Pipeline Shared Across Group</text>
+  </g>
+
+  <g>
+    <rect x="838" y="452" width="412" height="240" rx="28" fill="#FBFCFE"/>
+    <text x="868" y="498" fill="#10243E" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="24" font-weight="700">Multi-plot context</text>
+    <rect x="868" y="522" width="352" height="132" rx="18" fill="#EEF4FA"/>
+    <path d="M890 623C935 570 970 561 1004 582C1042 607 1083 606 1123 553C1157 508 1188 503 1210 522" stroke="url(#accent)" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="1004" cy="582" r="9" fill="#0A66C2"/>
+    <circle cx="1123" cy="553" r="9" fill="#2C9C8C"/>
+    <rect x="868" y="672" width="142" height="14" rx="7" fill="#C9D7E4"/>
+    <rect x="1022" y="672" width="198" height="14" rx="7" fill="#D7E3EF"/>
+  </g>
+</svg>
