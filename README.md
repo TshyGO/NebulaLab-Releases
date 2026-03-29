@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="https://raw.githubusercontent.com/TshyGO/NebulaGraph-Releases/main/assets/nebula-hero.svg" alt="Nebula Graph hero banner" width="100%" />
+
 # Nebula Graph
 
 ### A desktop data workstation for scientific data preparation, repeatable batch processing, visualization, and Origin-ready export.
@@ -72,7 +74,7 @@ At its core, Nebula Graph is about making this path feel natural:
 ### Export and Interop
 
 - export single samples to Origin
-- download signed desktop builds
+- download signed Windows builds
 - receive in-app reminders when a newer build is available
 
 ---
@@ -95,11 +97,11 @@ Get the latest Windows build from the [latest release](https://github.com/TshyGO
 
 ### Recommended for most users
 
-- `Nebula Graph_x.y.z_x64-setup.exe`
+- Windows setup installer (`.exe`)
 
 ### Alternative installer
 
-- `Nebula Graph_x.y.z_x64_en-US.msi`
+- Windows MSI package (`.msi`)
 
 ### Asset guide
 
@@ -161,3 +163,4 @@ Those archives are generated automatically by GitHub for every public Release. T
 ### What stage is the product in?
 
 Nebula Graph is currently in an active **Windows alpha** stage. The core workflow is usable, while packaging, updater polish, and the product surface are still evolving quickly.
+
