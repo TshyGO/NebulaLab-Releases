@@ -12,11 +12,13 @@
 
 **Built for workflows that start with raw files and end with reusable plots, clean exports, and repeatable processing chains.**
 
+[Download Latest Build](https://github.com/TshyGO/NebulaGraph-Releases/releases/latest) • [Browse Release Notes](https://github.com/TshyGO/NebulaGraph-Releases/releases) • [Windows Alpha Channel](https://github.com/TshyGO/NebulaGraph-Releases/releases/latest)
+
 </div>
 
 ---
 
-## What Nebula Graph Is For
+## Why Nebula Graph Exists
 
 Nebula Graph is designed for people working with **families of similar scientific datasets** rather than isolated one-off charts.
 
@@ -33,6 +35,18 @@ It is especially useful when you need to:
 At its core, Nebula Graph is about making this path feel natural:
 
 `import -> group -> clean -> batch process -> branch -> plot -> export`
+
+---
+
+## At A Glance
+
+| Designed for | Delivery model | Current stage |
+| --- | --- | --- |
+| Repeated scientific data workflows | Signed Windows desktop installers | Active Windows alpha |
+
+| Best at | Working style | Output path |
+| --- | --- | --- |
+| Data prep before plotting | Group-first batch operations | Plot tabs, Origin export, packaged releases |
 
 ---
 
@@ -77,6 +91,13 @@ At its core, Nebula Graph is about making this path feel natural:
 - download signed Windows builds
 - receive in-app reminders when a newer build is available
 
+### What makes it different
+
+- it treats tabular cleanup as a first-class workspace instead of hiding it behind plotting
+- it favors shared pipelines over repetitive one-sample-at-a-time editing
+- it keeps multiple plot contexts alive instead of replacing the last figure
+- it packages the local engine and updater flow so the desktop app is usable outside a dev environment
+
 ---
 
 ## Typical Workflow
@@ -91,7 +112,7 @@ At its core, Nebula Graph is about making this path feel natural:
 
 ---
 
-## Download
+## Install
 
 Get the latest Windows build from the [latest release](https://github.com/TshyGO/NebulaGraph-Releases/releases/latest).
 
@@ -163,4 +184,3 @@ Those archives are generated automatically by GitHub for every public Release. T
 ### What stage is the product in?
 
 Nebula Graph is currently in an active **Windows alpha** stage. The core workflow is usable, while packaging, updater polish, and the product surface are still evolving quickly.
-
