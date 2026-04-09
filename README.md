@@ -2,9 +2,9 @@
 
 [🇨🇳 简体中文](./README.md) | [🇺🇸 English](./README_EN.md)
 
-<img src="https://raw.githubusercontent.com/TshyGO/NebulaGraph-Releases/main/assets/nebula-hero-academic.png" alt="Nebula Graph Workflow Graphic" width="600" style="border-radius: 12px; margin: 16px 0 32px 0" />
+<img src="https://raw.githubusercontent.com/TshyGO/NebulaGraph-Releases/main/assets/nebula-hero-academic.png" alt="Nebula Graph Workflow Graphic" width="460" style="border-radius: 12px; margin: 12px 0 20px 0" />
 
-<h1><img src="https://raw.githubusercontent.com/TshyGO/NebulaGraph-Releases/main/assets/logo.png" width="36" align="center" style="margin-right: 8px;" />Nebula Graph</h1>
+<h1><img src="https://raw.githubusercontent.com/TshyGO/NebulaGraph-Releases/main/assets/logo.png" width="28" style="vertical-align: middle; margin-right: 8px; margin-bottom: 4px;" />Nebula Graph</h1>
 
 **面向科研场景的数据处理工作站：集成数据清洗、特征预处理、批量执行与 Origin 格式交互的桌面端应用。**
 
