@@ -1,186 +1,87 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/TshyGO/NebulaGraph-Releases/main/assets/nebula-hero.svg" alt="Nebula Graph hero banner" width="100%" />
+<img src="https://raw.githubusercontent.com/TshyGO/NebulaGraph-Releases/main/assets/nebula-hero.svg" alt="Nebula Graph Hero Banner" width="100%" />
 
-# Nebula Graph
+# 🌌 Nebula Graph
 
-### A desktop data workstation for scientific data preparation, repeatable batch processing, visualization, and Origin-ready export.
+**A next-generation desktop workstation for scientific data preparation, batch processing, visualization, and Origin-ready export.**
 
-[![Latest Release](https://img.shields.io/github/v/release/TshyGO/NebulaGraph-Releases?display_name=tag&sort=semver)](https://github.com/TshyGO/NebulaGraph-Releases/releases/latest)
-[![Platform](https://img.shields.io/badge/platform-Windows-0A66C2)](https://github.com/TshyGO/NebulaGraph-Releases/releases/latest)
-[![Channel](https://img.shields.io/badge/channel-Alpha-C97A1A)](https://github.com/TshyGO/NebulaGraph-Releases/releases/latest)
+[![Latest Release](https://img.shields.io/github/v/release/TshyGO/NebulaGraph-Releases?display_name=tag&sort=semver&style=for-the-badge&color=8A2BE2)](https://github.com/TshyGO/NebulaGraph-Releases/releases/latest)
+[![Platform](https://img.shields.io/badge/Platform-Windows-0A66C2?style=for-the-badge&logo=windows)](https://github.com/TshyGO/NebulaGraph-Releases/releases/latest)
+[![Channel](https://img.shields.io/badge/Channel-Alpha-C97A1A?style=for-the-badge)](https://github.com/TshyGO/NebulaGraph-Releases/releases/latest)
 
-**Built for workflows that start with raw files and end with reusable plots, clean exports, and repeatable processing chains.**
+*Built for workflows that start with messy raw files and end with beautiful, reusable plots.*<br>
+*Replace your repetitive Excel operations with a fluid, repeatable processing chain.*
 
-[Download Latest Build](https://github.com/TshyGO/NebulaGraph-Releases/releases/latest) • [Browse Release Notes](https://github.com/TshyGO/NebulaGraph-Releases/releases) • [Windows Alpha Channel](https://github.com/TshyGO/NebulaGraph-Releases/releases/latest)
+[🚀 Download Latest Build](https://github.com/TshyGO/NebulaGraph-Releases/releases/latest) &nbsp;&nbsp;•&nbsp;&nbsp; [📜 Release Notes](https://github.com/TshyGO/NebulaGraph-Releases/releases)
 
 </div>
 
 ---
 
-## Why Nebula Graph Exists
+## ✨ Why Nebula Graph?
 
-Nebula Graph is designed for people working with **families of similar scientific datasets** rather than isolated one-off charts.
+Nebula Graph is purpose-built for researchers, engineers, and scientists working with **families of related datasets** rather than isolated one-off charts. We treat data preparation as a first-class citizen.
 
-It is especially useful when you need to:
-
-- import multiple CSV, TXT, and Excel files together
-- organize related datasets by file, sheet, group, and sample
-- clean tables before plotting
-- apply the same processing chain across a whole group
-- branch a subgroup from a shared workflow when only part of the data changes
-- compare multiple plot contexts without replacing the previous figure
-- send finished results to Origin or downstream reporting tools
-
-At its core, Nebula Graph is about making this path feel natural:
-
-`import -> group -> clean -> batch process -> branch -> plot -> export`
+At its core, Nebula Graph makes this entire pipeline feel completely weightless:  
+`📥 Import` &nbsp;➔&nbsp; `📂 Group` &nbsp;➔&nbsp; `🧹 Clean` &nbsp;➔&nbsp; `⚙️ Batch Process` &nbsp;➔&nbsp; `🌿 Branch` &nbsp;➔&nbsp; `📊 Plot` &nbsp;➔&nbsp; `📤 Export`
 
 ---
 
-## At A Glance
+## ⚡ Core Capabilities
 
-| Designed for | Delivery model | Current stage |
-| --- | --- | --- |
-| Repeated scientific data workflows | Signed Windows desktop installers | Active Windows alpha |
-
-| Best at | Working style | Output path |
-| --- | --- | --- |
-| Data prep before plotting | Group-first batch operations | Plot tabs, Origin export, packaged releases |
-
----
-
-## Core Strengths
-
-| Area | What it means in practice |
-| --- | --- |
-| **Data Preparation First** | Clean tables before plotting, instead of treating preprocessing as an afterthought |
-| **Group-First Workflow** | Apply shared logic to related samples without repeating the same operations one by one |
-| **Controlled Branching** | Split a subgroup or one special sample from a shared pipeline when the workflow diverges |
-| **Plot Context Preservation** | Create multiple plot tabs without overwriting the previous working view |
-| **Desktop Delivery** | Use signed Windows installers, in-app update feeds, and a packaged local engine |
-
----
-
-## What You Can Do Today
-
-### Data Prep Workspace
-
-- import multiple files and Excel workbooks
-- auto-group related datasets by file
-- browse `File -> Sheet -> Group -> Sample`
-- delete rows, delete columns, and edit cell values directly
-- replay table edits across group or sheet scope
-
-### Shared Processing
-
-- use **groups** as the default working unit
-- apply shared processing steps to similar data
-- branch from a chosen step into a subgroup
-- detach a sample when it needs a custom path
-
-### Plot Workspace
-
-- create multiple plot tabs
-- keep separate X / Y mappings by plot context
-- move from data prep to plotting without losing the workflow state
-
-### Export and Interop
-
-- export single samples to Origin
-- download signed Windows builds
-- receive in-app reminders when a newer build is available
-
-### What makes it different
-
-- it treats tabular cleanup as a first-class workspace instead of hiding it behind plotting
-- it favors shared pipelines over repetitive one-sample-at-a-time editing
-- it keeps multiple plot contexts alive instead of replacing the last figure
-- it packages the local engine and updater flow so the desktop app is usable outside a dev environment
+<table>
+  <tr>
+    <td><div align="center">🛠️<br><b>Data Preparation First</b></div></td>
+    <td>Clean, trim, and normalize your tables with powerful matrix tools before plotting, rather than treating preprocessing as a friction-heavy afterthought.</td>
+  </tr>
+  <tr>
+    <td><div align="center">🗂️<br><b>Group-First Workflow</b></div></td>
+    <td>Apply shared, complex processing pipelines across entire directories of related samples instantly—no more repeating the same clicks sample by sample.</td>
+  </tr>
+  <tr>
+    <td><div align="center">🌿<br><b>Fluid Branching</b></div></td>
+    <td>Split exceptions, subgroups, or special samples off a shared pipeline seamlessly when your workflow diverges.</td>
+  </tr>
+  <tr>
+    <td><div align="center">🖥️<br><b>Local & Offline Desktop</b></div></td>
+    <td>Runs natively on Windows with packaged self-contained environments. Zero latency, 100% offline security, and seamless in-app auto-updates.</td>
+  </tr>
+</table>
 
 ---
 
-## Typical Workflow
+## 🚀 Quick Start Guide
 
-1. Import a batch of similar files.
-2. Let Nebula Graph auto-group them by file.
-3. Clean the current table in Data Prep.
-4. Apply a shared pipeline to the current group.
-5. Branch a subgroup when one subset needs special treatment.
-6. Send the current group or selection to a new plot tab.
-7. Export the result or continue iterating.
-
----
-
-## Install
-
-Get the latest Windows build from the [latest release](https://github.com/TshyGO/NebulaGraph-Releases/releases/latest).
-
-### Recommended for most users
-
-- Windows setup installer (`.exe`)
-
-### Alternative installer
-
-- Windows MSI package (`.msi`)
-
-### Asset guide
-
-| Asset | Purpose |
-| --- | --- |
-| `setup.exe` | Recommended installer for most users |
-| `msi` | Windows Installer package |
-| `*.sig` | Updater signatures used by the packaged desktop app |
-| `latest.json` | Update feed metadata used by in-app updates |
+1. 📥 **Download** the `setup.exe` from the [Latest Release](https://github.com/TshyGO/NebulaGraph-Releases/releases/latest).
+2. 💻 **Install** Nebula Graph on your Windows workstation.
+3. 📂 **Drag & Drop** your raw datasets (CSV, TXT, Excel).
+4. ⚙️ **Process** and instantly preview your tables.
+5. 📊 **Visualize** to your custom preset workflows.
+6. 📤 **Export** cleanly directly to Origin (.opju / .oth) or standard vector environments.
 
 ---
 
-## Quick Start
+## 📦 Downloads & Installation
 
-1. Download the latest installer from Releases.
-2. Install Nebula Graph on Windows.
-3. Import a batch of related data files.
-4. Organize and clean them in Data Prep.
-5. Apply a shared workflow to the current group.
-6. Open one or more plot tabs.
-7. Export the result when the workflow is ready.
+> **System Requirements:** Windows 10 / 11 (x64)
 
----
+| Installer Type | Filename | Description |
+| :--- | :--- | :--- |
+| **Recommended** 🌟 | `NebulaGraph-*-setup.exe` | The standard one-click Windows installer with seamless, signed auto-update capability. |
+| **IT Deployment** | `NebulaGraph-*.msi` | Enterprise MSI Installer for bulk deployments. |
 
-## Best Fit
-
-Nebula Graph is a strong fit for:
-
-- spectroscopy and signal-processing datasets
-- workbook-based experiment outputs
-- repeated measurement batches
-- table-driven preprocessing before visualization
-- technical workflows where the same logic is reused across many similar samples
+*(Note: The `.sig` and `latest.json` files on the Release pages are internal updater manifests used automatically by the app. You do not need to download them.)*
 
 ---
 
-## Product Direction
+## 🙋 FAQ
 
-Nebula Graph is currently centered on these ideas:
+**Is Nebula Graph open source?**  
+The public `NebulaGraph-Releases` repository is the distribution channel for compiled desktop builds. The application's core source code repository is currently private.
 
-- **data preparation before plotting**
-- **group-first workflows**
-- **shared pipelines with controlled branching**
-- **desktop-first scientific workbench UX**
-- **reusable project templates and presets**
+**Why do GitHub Releases show Source code (zip)?**  
+Those archives are auto-generated by GitHub for every repo. They only contain snapshots of this public distribution repository (i.e. this README), not the actual Nebula Graph application source code.
 
----
-
-## FAQ
-
-### Is Nebula Graph open source?
-
-The public `NebulaGraph-Releases` repository is the distribution channel for desktop builds. The application source repository is private at the moment.
-
-### Why do GitHub Releases still show `Source code (zip)` and `Source code (tar.gz)`?
-
-Those archives are generated automatically by GitHub for every public Release. They are snapshots of this public distribution repository, not the private application source repository.
-
-### What stage is the product in?
-
-Nebula Graph is currently in an active **Windows alpha** stage. The core workflow is usable, while packaging, updater polish, and the product surface are still evolving quickly.
+**What is the current development stage?**  
+Nebula Graph is actively developed in the **Alpha Channel**. The underlying workstation and batching engine are highly stable, while UI polish, deep integration, and extended features are rapidly evolving. Welcome aboard!
