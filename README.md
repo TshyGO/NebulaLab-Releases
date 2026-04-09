@@ -2,7 +2,7 @@
 
 [🇨🇳 简体中文](./README.md) | [🇺🇸 English](./README_EN.md)
 
-<img src="https://raw.githubusercontent.com/TshyGO/NebulaGraph-Releases/main/assets/nebula-hero-infographic.png" alt="Nebula Graph Workflow Graphic" width="100%" style="border-radius: 18px; margin: 24px 0" />
+<img src="https://raw.githubusercontent.com/TshyGO/NebulaGraph-Releases/main/assets/nebula-hero-academic.png" alt="Nebula Graph Workflow Graphic" width="600" style="border-radius: 12px; margin: 16px 0 32px 0" />
 
 <h1><img src="https://raw.githubusercontent.com/TshyGO/NebulaGraph-Releases/main/assets/logo.png" width="36" align="center" style="margin-right: 8px;" />Nebula Graph</h1>
 
