@@ -1,11 +1,7 @@
 <div align="center">
-
 [🇨🇳 简体中文](./README.md) | [🇺🇸 English](./README_EN.md)
-
-<img src="https://raw.githubusercontent.com/TshyGO/NebulaGraph-Releases/main/assets/nebula-hero-academic.png" alt="Nebula Graph Workflow Graphic" width="460" style="border-radius: 12px; margin: 12px 0 20px 0" />
-
-<h1><img src="https://raw.githubusercontent.com/TshyGO/NebulaGraph-Releases/main/assets/logo.png" width="28" style="vertical-align: middle; margin-right: 8px; margin-bottom: 4px;" />Nebula Graph</h1>
-
+<img src="https://raw.githubusercontent.com/TshyGO/NebulaGraph-Releases/main/assets/nebula-hero-academic.png" alt="Nebula Graph Workflow Graphic" width="400" style="border-radius: 12px; margin: 4px 0" />
+<h1 style="margin: 0; margin-top: -8px; margin-bottom: 8px;"><img src="https://raw.githubusercontent.com/TshyGO/NebulaGraph-Releases/main/assets/logo.png" width="34" style="vertical-align: -6px; margin-right: 4px;" />Nebula Graph</h1>
 **A desktop workstation tailored for scientific data preparation, batch execution, and structured visualization integration.**
 
 [![Latest Release](https://img.shields.io/github/v/release/TshyGO/NebulaGraph-Releases?display_name=tag&sort=semver&style=for-the-badge&color=2e4c70)](https://github.com/TshyGO/NebulaGraph-Releases/releases/latest)
