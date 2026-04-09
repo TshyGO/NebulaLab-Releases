@@ -75,6 +75,16 @@ At its core, Nebula Graph makes this entire pipeline feel completely weightless:
 
 ---
 
+## 🔮 Upcoming Roadmap
+
+Nebula Graph is quickly evolving from a local workstation into a comprehensive hub for scientific data manipulation. Here's what is currently in active development:
+
+- 🌐 **Workflow Community:** A built-in community tab (backed by Supabase) allowing researchers to instantly publish, browse, and download workflow templates and origin plot styles.
+- 🤖 **Agentic AI Integration:** Seamlessly integrating an AI assistant to automatically detect data schemas, propose cleaning pipelines, and automate repetitive formatting logic natively inside your workspace.
+- 📈 **Advanced Origin Bridge:** Expanding beyond basic exports into a bidirectional pipeline for rapid, multi-graph OriginLab rendering.
+
+---
+
 ## 🙋 FAQ
 
 **Is Nebula Graph open source?**  
