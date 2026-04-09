@@ -2,10 +2,9 @@
 
 [🇨🇳 简体中文](./README.md) | [🇺🇸 English](./README_EN.md)
 
-<br>
-<img src="https://raw.githubusercontent.com/TshyGO/NebulaGraph-Releases/main/assets/logo.png" alt="Nebula Graph Logo" width="120" />
+<img src="https://raw.githubusercontent.com/TshyGO/NebulaGraph-Releases/main/assets/nebula-hero-infographic.png" alt="Nebula Graph Workflow Graphic" width="100%" style="border-radius: 18px; margin: 24px 0" />
 
-# 🌌 Nebula Graph
+<h1><img src="https://raw.githubusercontent.com/TshyGO/NebulaGraph-Releases/main/assets/logo.png" width="36" align="center" style="margin-right: 8px;" />Nebula Graph</h1>
 
 **A next-generation desktop workstation for scientific data preparation, batch processing, visualization, and Origin-ready export.**
 
