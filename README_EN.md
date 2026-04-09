@@ -1,84 +1,65 @@
 <div align="center">
 
-[🇨🇳 简体中文](./README.md) | [🇺🇸 English](./README_EN.md)
+<img src="./assets/logo.png" alt="Nebula Graph logo" width="92" />
 
-<img src="https://raw.githubusercontent.com/TshyGO/NebulaGraph-Releases/main/assets/nebula-hero-academic.png" alt="Nebula Graph Workflow Graphic" width="420" style="border-radius: 12px; margin-top: 10px;" />
+# Nebula Graph
 
-<h1><img src="https://raw.githubusercontent.com/TshyGO/NebulaGraph-Releases/main/assets/logo.png" width="48" style="vertical-align: middle; margin-right: 4px;" />Nebula Graph</h1>
+**A Windows desktop workstation for scientific data preparation, batch execution, and Origin-ready export**
 
-**A desktop workstation tailored for scientific data preparation, batch execution, and structured visualization integration.**
+From raw experimental files to plot-ready datasets, Nebula Graph keeps import, grouping, cleansing, batch processing, and export in one workflow.
 
+[🇨🇳 简体中文](./README.md) · [🇺🇸 English](./README_EN.md)
 
 [![Latest Release](https://img.shields.io/github/v/release/TshyGO/NebulaGraph-Releases?display_name=tag&sort=semver&style=for-the-badge&color=2e4c70)](https://github.com/TshyGO/NebulaGraph-Releases/releases/latest)
 [![Platform](https://img.shields.io/badge/Platform-Windows-0A66C2?style=for-the-badge&logo=windows)](https://github.com/TshyGO/NebulaGraph-Releases/releases/latest)
 [![Channel](https://img.shields.io/badge/Channel-Alpha-C97A1A?style=for-the-badge)](https://github.com/TshyGO/NebulaGraph-Releases/releases/latest)
 
-*Developed to standardize the preprocessing workflows of grouped scientific datasets, reducing repetitive manual operations prior to final plotting.*
-
-[📥 Download Executables](https://github.com/TshyGO/NebulaGraph-Releases/releases/latest) &nbsp;&nbsp;•&nbsp;&nbsp; [📄 Release History](https://github.com/TshyGO/NebulaGraph-Releases/releases)
+[**📥 Download Latest Release**](https://github.com/TshyGO/NebulaGraph-Releases/releases/latest) &nbsp;&nbsp;•&nbsp;&nbsp; [**📄 View Release History**](https://github.com/TshyGO/NebulaGraph-Releases/releases)
 
 </div>
 
----
+<p align="center">
+  <img src="./assets/nebula-hero-academic.png" alt="Nebula Graph workflow overview" width="760" />
+</p>
 
-## 🔬 Design Objective
+> **What Nebula Graph is for:** a stable, repeatable workflow for group-level data and multi-plot experimental series, reducing repetitive manual cleanup before handoff to Origin or other plotting tools.
 
-Nebula Graph is designed for the specific needs of processing **group-level data** and isomorphic analytical batches. Recognizing that data preparation dictates analytical validity, this project shifts the focus forward with a strict structured pipeline:
+## Workflow Overview
 
-`Import` &nbsp;➔&nbsp; `Group` &nbsp;➔&nbsp; `Cleanse` &nbsp;➔&nbsp; `Batch Process` &nbsp;➔&nbsp; `Visualize` &nbsp;➔&nbsp; `Export`
+| Import | Group | Cleanse | Batch Process | Preview | Export |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `.csv` `.txt` `.xlsx` | Organize by folder, group, or sample set | Crop, normalize, and handle outliers | Reuse pipelines across homologous datasets | Inspect trends and processed distributions | Export to Origin / `.opju` |
 
----
+## Core Capabilities
 
-## 📐 Core Functionality
+| Capability | Description |
+| :--- | :--- |
+| Preprocessing First | Standardize data quality and structure before formal plotting to reduce downstream rework. |
+| Group-Level Reuse | Apply a validated workflow from one sample to an entire related dataset group. |
+| Independent Branch Control | Let anomalous samples leave the main pipeline and follow a separate logic path. |
+| Local Desktop Execution | Run as a standalone Windows application so raw experimental data stays on local hardware. |
 
-<table>
-  <tr>
-    <td><div align="center"><b>Preprocessing Focus</b></div></td>
-    <td>Provides an environment for matrix operations prior to visualization, supporting data cleaning, cropping, and normalization to improve data uniformity and validity.</td>
-  </tr>
-  <tr>
-    <td><div align="center"><b>Group-Level Operations</b></div></td>
-    <td>Execution logic can be evaluated across directory or categorical boundaries. Established processing paths on a given unit can be replicated across homologous datasets.</td>
-  </tr>
-  <tr>
-    <td><div align="center"><b>Independent Branching</b></div></td>
-    <td>Permits the isolation of specific anomalous samples from the primary workflow, allowing secondary evaluation logic without disrupting the batch pipeline.</td>
-  </tr>
-  <tr>
-    <td><div align="center"><b>Localized Execution</b></div></td>
-    <td>Compiled as a standalone Windows desktop application, all processing is restricted to local hardware, safeguarding the confidentiality of raw experimental data.</td>
-  </tr>
-</table>
+## Typical Usage
 
----
+1. Download the `setup.exe` or `msi` package from the [Releases page](https://github.com/TshyGO/NebulaGraph-Releases/releases/latest).
+2. Import instrument outputs, wide tables, or grouped experiment result files.
+3. Configure cleansing, cropping, normalization, or interpolation rules for the active dataset group.
+4. Use the visualization module to verify that the processed output looks correct.
+5. Export the prepared grouped data to Origin or other scientific plotting tools.
 
-## 📝 Operating Protocol
+## Package Notes
 
-1. **Deployment**: Download the executable from the [Releases page](https://github.com/TshyGO/NebulaGraph-Releases/releases/latest) and deploy on a compatible Windows workstation.
-2. **Ingestion**: Import wide-table outputs and datasets generated by analytical equipment (supported extensions include `.csv`, `.txt`, `.xlsx`).
-3. **Sequence Mapping**: Determine data geometries and synthesize necessary exclusion or interpolation logic applicable to the specific experimental group.
-4. **Validation Preview**: Utilize built-in visualization tools to empirically assess processed distribution integrity.
-5. **Asset Output**: Dispatch the normalized categorical files to Origin or generic graphing packages for formal data presentation.
+> Supported systems: Windows 10 / Windows 11 (x64)
 
----
-
-## 🔮 Future Roadmap
-
-The application currently operates on a core aggregation engine. Iterative updates will prioritize the following modules:
-
-- **Workflow Community (Phase 2):** Implementing an integrated local retrieval system (based on Supabase architecture) for indexing and sharing pipeline recipes and plotting layouts.
-- **Parametric AI Parsing:** Examining inference implementations to adaptively classify header structures and resolve layout heuristics in disorganized output files.
-- **OriginLab Extension Protocol:** Deepening the scope of the export module to accommodate layered template parameter mapping for Origin targets.
-
----
-
-## 📦 Deployment Information
-
-> **Supported Architecture Requirements:** Windows 10 / Windows 11 (x64)
-
-| Executable Variant | Environment Context | Description |
+| Package | Best For | Description |
 | :--- | :--- | :--- |
-| `NebulaGraph-*-setup.exe` | **Standard Desktop Installation** | The primary installer sequence incorporating background integrity checks and automated retrieval functions. |
-| `NebulaGraph-*.msi` | **Enterprise / Cluster Deployment** | Facilitates low-level, silent deployment methodologies suited for bulk laboratory workstation installations. |
+| `NebulaGraph-*-setup.exe` | Standard desktop installation | Recommended for most users, with the regular installer flow and updater support. |
+| `NebulaGraph-*.msi` | Managed or large-scale deployment | Better for lab workstations, domain-managed environments, or silent deployment scenarios. |
 
-*(Note: Validation files such as `.sig` and `latest.json` are internal cache dependencies corresponding to the software updates and should not be manually downloaded.)*
+> Files such as `.sig` and `latest.json` are internal updater assets and can be ignored during manual installation.
+
+## Roadmap Focus
+
+- Workflow template sharing and discovery
+- Smarter data-structure recognition and cleansing guidance
+- Richer OriginLab interoperability and export support
