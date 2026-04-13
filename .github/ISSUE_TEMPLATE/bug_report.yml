@@ -1,57 +1,41 @@
 name: 报告问题 / Bug Report
-description: 使用简练详细的语言描述你遇到的问题
+description: 遇到 Bug 或异常行为？告诉我发生了什么
 labels: ["bug"]
 body:
   - type: markdown
     attributes:
       value: |
-        感谢你花时间填写一份问题报告！请提供尽可能详细的信息，以便我们快速解决。
+        感谢你的反馈！填三项就够了，不用太正式。
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: 问题类型
+      options:
+        - 程序崩溃 / 报错
+        - 功能不正常
+        - 激活 / 会员问题
+        - 更新问题
+        - 界面显示问题
+        - 其他
 
   - type: textarea
     id: description
     attributes:
-      label: 问题描述
-      description: 简洁且清晰地描述这个 Bug。
-      placeholder: 描述发生了什么...
-    validations:
-      required: true
-
-  - type: textarea
-    id: steps
-    attributes:
-      label: 复现步骤
-      description: 包含如何复现该问题的具体步骤。
+      label: 发生了什么
+      description: 描述问题，以及怎么触发的。如果和预期不一样，也可以顺带说说你期望的结果。
       placeholder: |
-        1. 进入 '...'
-        2. 点击 '...'
-        3. 发现错误
-    validations:
-      required: true
-
-  - type: textarea
-    id: expected
-    attributes:
-      label: 期望行为
-      description: 你期望发生什么？
-      placeholder: 描述期望的结果...
-    validations:
-      required: true
-
-  - type: textarea
-    id: actual
-    attributes:
-      label: 实际行为
-      description: 实际发生了什么？如果可以，请附上截图。
-      placeholder: 描述实际发生的情况...
+        我在做 ... 的时候，发现 ...
+        重现方式：1. ... 2. ... 3. ...
     validations:
       required: true
 
   - type: input
     id: version
     attributes:
-      label: 应用版本
-      description: 你当前运行的 Nebula Graph 版本？（可在设置中查看）
-      placeholder: 例如 v1.2.0
+      label: 版本号
+      description: 可在软件设置页面查看
+      placeholder: 例如 v0.6.2
     validations:
       required: true
 
@@ -62,16 +46,13 @@ body:
       options:
         - Windows 11
         - Windows 10
-        - macOS (Apple Silicon)
-        - macOS (Intel)
-        - Ubuntu / Debian
-        - Other
+        - 其他
     validations:
       required: true
 
   - type: textarea
     id: logs
     attributes:
-      label: 日志与输出
-      description: 请粘贴引擎日志或控制台报错（如有）。
+      label: 截图或日志（选填）
+      description: 如果有报错信息或截图，粘贴在这里会很有帮助。
       render: shell
