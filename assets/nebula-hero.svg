@@ -32,7 +32,7 @@
   <rect x="342" y="232" width="54" height="54" rx="16" fill="url(#accent)"/>
   <path d="M358 271V247H372C384.5 247 392 252.8 392 265.5C392 278.2 384.5 284 372 284H358V271Z" fill="white"/>
 
-  <text x="320" y="392" fill="#10243E" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="74" font-weight="700">Nebula Graph</text>
+  <text x="320" y="392" fill="#10243E" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="74" font-weight="700">Nebula Lab</text>
   <text x="320" y="448" fill="#4A617A" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="28" font-weight="500">Scientific data preparation, batch processing, visualization, and Origin-ready export</text>
 
   <text x="320" y="532" fill="#10243E" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="24" font-weight="700">Group-first workflow</text>

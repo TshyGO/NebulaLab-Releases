@@ -1,28 +1,28 @@
 <div align="center">
 
-<img src="./assets/logo.png" alt="Nebula Graph logo" width="92" />
+<img src="./assets/logo.png" alt="Nebula Lab logo" width="92" />
 
-# Nebula Graph
+# Nebula Lab
 
 **A Windows desktop workstation for scientific data preparation, batch execution, and Origin-ready export**
 
-From raw experimental files to plot-ready datasets, Nebula Graph keeps import, grouping, cleansing, batch processing, and export in one workflow.
+From raw experimental files to plot-ready datasets, Nebula Lab keeps import, grouping, cleansing, batch processing, and export in one workflow.
 
 [🇨🇳 简体中文](./README.md) · [🇺🇸 English](./README_EN.md)
 
-[![Latest Release](https://img.shields.io/github/v/release/TshyGO/NebulaGraph-Releases?display_name=tag&sort=semver&style=for-the-badge&color=2e4c70)](https://github.com/TshyGO/NebulaGraph-Releases/releases/latest)
-[![Platform](https://img.shields.io/badge/Platform-Windows-0A66C2?style=for-the-badge&logo=windows)](https://github.com/TshyGO/NebulaGraph-Releases/releases/latest)
-[![Channel](https://img.shields.io/badge/Channel-Alpha-C97A1A?style=for-the-badge)](https://github.com/TshyGO/NebulaGraph-Releases/releases/latest)
+[![Latest Release](https://img.shields.io/github/v/release/TshyGO/NebulaLab-Releases?display_name=tag&sort=semver&style=for-the-badge&color=2e4c70)](https://github.com/TshyGO/NebulaLab-Releases/releases/latest)
+[![Platform](https://img.shields.io/badge/Platform-Windows-0A66C2?style=for-the-badge&logo=windows)](https://github.com/TshyGO/NebulaLab-Releases/releases/latest)
+[![Channel](https://img.shields.io/badge/Channel-Alpha-C97A1A?style=for-the-badge)](https://github.com/TshyGO/NebulaLab-Releases/releases/latest)
 
-[**📥 Download Latest Release**](https://github.com/TshyGO/NebulaGraph-Releases/releases/latest) &nbsp;&nbsp;•&nbsp;&nbsp; [**📄 View Release History**](https://github.com/TshyGO/NebulaGraph-Releases/releases)
+[**📥 Download Latest Release**](https://github.com/TshyGO/NebulaLab-Releases/releases/latest) &nbsp;&nbsp;•&nbsp;&nbsp; [**📄 View Release History**](https://github.com/TshyGO/NebulaLab-Releases/releases)
 
 </div>
 
 <p align="center">
-  <img src="./assets/nebula-hero-academic.png" alt="Nebula Graph workflow overview" width="760" />
+  <img src="./assets/nebula-hero-academic.png" alt="Nebula Lab workflow overview" width="760" />
 </p>
 
-> **What Nebula Graph is for:** a stable, repeatable workflow for group-level data and multi-plot experimental series, reducing repetitive manual cleanup before handoff to Origin or other plotting tools.
+> **What Nebula Lab is for:** a stable, repeatable workflow for group-level data and multi-plot experimental series, reducing repetitive manual cleanup before handoff to Origin or other plotting tools.
 
 ## Workflow Overview
 
@@ -41,7 +41,7 @@ From raw experimental files to plot-ready datasets, Nebula Graph keeps import, g
 
 ## Typical Usage
 
-1. Download the `setup.exe` or `msi` package from the [Releases page](https://github.com/TshyGO/NebulaGraph-Releases/releases/latest).
+1. Download the `setup.exe` or `msi` package from the [Releases page](https://github.com/TshyGO/NebulaLab-Releases/releases/latest).
 2. Import instrument outputs, wide tables, or grouped experiment result files.
 3. Configure cleansing, cropping, normalization, or interpolation rules for the active dataset group.
 4. Use the visualization module to verify that the processed output looks correct.
@@ -53,8 +53,8 @@ From raw experimental files to plot-ready datasets, Nebula Graph keeps import, g
 
 | Package | Best For | Description |
 | :--- | :--- | :--- |
-| `NebulaGraph-*-setup.exe` | Standard desktop installation | Recommended for most users, with the regular installer flow and updater support. |
-| `NebulaGraph-*.msi` | Managed or large-scale deployment | Better for lab workstations, domain-managed environments, or silent deployment scenarios. |
+| `NebulaLab-*-setup.exe` | Standard desktop installation | Recommended for most users, with the regular installer flow and updater support. |
+| `NebulaLab-*.msi` | Managed or large-scale deployment | Better for lab workstations, domain-managed environments, or silent deployment scenarios. |
 
 > Files such as `.sig` and `latest.json` are internal updater assets and can be ignored during manual installation.
 
